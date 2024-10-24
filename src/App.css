@@ -1,0 +1,150 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: rgb(3, 0, 31);
+  color: white;
+  font-family: 'poppins', sans-serif;
+  
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar{
+  flex: 3;
+  border-right: 1px solid rgb(100, 100, 100);
+}
+
+.main{
+  flex: 9;
+}
+
+.logo{
+  margin-right: 1rem;
+}
+
+.brand{
+  font-size: 2rem;
+}
+
+.upperSide{
+  padding: 2rem;
+  align-items: center;
+  height: 70%;
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+/* .subButton{
+  margin-top: 2rem;
+} */
+
+.midBtn{
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 88%;
+  gap: 1rem;
+  background: #5856FF;
+  color: white;
+  border: 1px solid #5856FF;
+  border-radius: 3px;
+  font-weight: 300;
+  justify-content: center;
+  margin-bottom: 3.6rem;
+  margin-top: 1rem;
+}
+
+.query,.query1{
+  background: transparent;
+  color: rgb(222, 222, 222, 1);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+  border: 2px solid #1D1C3A;
+  width: 88%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.query1>svg{
+  margin-left: -1.9rem;
+}
+
+.lowerSide{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2rem;
+}
+
+.listItems{
+  margin: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.ulist{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: -15rem;
+  margin-top: 2.6rem;
+}
+
+.listss1,.listss2,.listss3{
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+}
+
+.listss1,.listss2{
+  margin-left: -6.2rem;
+}
+
+li{
+  list-style-type: none;
+  display: flex;
+  
+}
+
+/* .listItems{
+  align-items: center;
+  justify-content: center;
+  margin-left: -19rem;
+  
+} */
+
+.upperSideTop{
+  display: flex;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar{
+    display: none;
+  }
+  
+  
+
+}

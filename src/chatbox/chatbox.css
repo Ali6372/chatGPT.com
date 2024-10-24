@@ -1,0 +1,117 @@
+.inp{
+    display: flex;
+    justify-content: space-between;
+    background: #15182E;
+    padding: 2rem;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 80%;
+}
+
+button{
+    background: transparent;
+    display: block;
+    border: none;
+    outline: none;
+    color: #626461;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-footer{
+    
+    width: 70%;
+    margin: auto;
+    
+}
+
+.chat{
+    background: #15182E;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    border-radius: 7px;
+}
+
+/* .image{
+    align-items: center;
+    justify-content: center;
+}
+
+.image>img{
+    height: 80px;
+    width: 80px;
+} */
+
+.nav{
+    display: none;
+}
+
+@media only screen and (max-width: 601px) {
+    .chat{
+        margin-top: 10rem;
+        width: 381px;
+    }
+
+    .inp{
+        width: 381px;
+        margin-left: -5.4rem;
+    }
+    
+    .nav{
+        display: block;
+        width: 100%;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .image{
+        display: flex;
+        position: relative;
+        gap: 2rem;
+    }
+    .brands{
+        font-size: 2rem;
+        margin-bottom: 5rem;
+        position: absolute;
+        top: 0.7rem;
+        left: 5.5rem;
+    }
+
+    .image>img{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .image{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .brands{
+        margin-bottom: 5rem;
+    }
+
+    .rightSideBar{
+        width: 100%;
+        height: 100%;
+        background: white;
+    }
+  
+  }
+
